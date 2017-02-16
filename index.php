@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:host=' . getenv('DB_ADDRESS') . ';dbname=' . getenv('DB_NAME');
+$dsn = 'pgsql:host=' . getenv('DB_ADDRESS') . ';dbname=' . getenv('DB_NAME');
 $db_user = getenv('DB_USER');
 $db_password = getenv('DB_PASSWORD');
 
